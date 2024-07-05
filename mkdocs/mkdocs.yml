@@ -1,0 +1,239 @@
+# mkdocs.yml
+site_name: Маркет-Москва
+
+markdown_extensions:
+  - tables
+
+theme:
+  name: "material"
+  language: ru
+  palette:
+    primary: pink
+  features:
+    - navigation.indexes
+    - navigation.top
+    #navigation.path
+    #navigation.prune
+    #navigation.expand
+    #navigation.tabs
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+nav:
+  - Алкогольные напитки:
+    - Бальзам: balzam.md
+    - Бренди: brendi.md
+    - Вермут: vermut.md
+    - Вино: vino.md
+    - Виски, бурбон: viski-burbon.md
+    - Водка, Абсент: vodka-absent.md
+    - Джин: dzin.md
+    - Игристые вина: igristye-vina.md
+    - Коньяк: konak.md
+    - Ликёры: likery.md
+    - Медовуха: medovuha.md
+    - Настойки: nastojki.md
+    - Пиво: pivo.md
+    - Ром: rom.md
+    - Самогон: samogon.md
+    - Сидр: sidr.md
+    - Слабоалкогольные напитки: slaboalkogolnye-napitki.md
+    - Текила: tekila.md
+    - Шампанское: sampanskoe.md
+  - Замороженные продукты:
+    - Замороженные полуфабрикаты: zamorozennye-polufabrikaty.md
+    - Котлеты, наггетсы: kotlety-naggetsy.md
+    - Лёд: led.md
+    - Морепродукты: moreprodukty.md
+    - Мясо, птица и субпродукты: maso-ptica-i-subprodukty.md
+    - Овощи и смеси: ovosi-i-smesi.md
+    - Пицца, вареники, пельмени, блины: picca-vareniki-pelmeni-bliny.md
+    - Рыба: ryba.md
+    - Ягоды и фрукты: agody-i-frukty.md
+  - Колбасные изделия:
+    - Ветчина: vetcina.md
+    - Деликатесы и копчёности: delikatesy-i-kopcenosti.md
+    - Заливное: zalivnoe.md
+    - Колбаса: kolbasa.md
+    - Паштеты: pastety.md
+    - Сардельки: sardelki.md
+    - Сосиски: sosiski.md
+    #- Студни: studni.md
+    - Холодцы: holodcy.md
+    - Шпикачки: spikacki.md
+  - Консервация:
+    - Мясные консервы: masnye-konservy.md
+    - Овощные консервы: ovosnye-konservy.md
+    - Рыбные консервы: rybnye-konservy.md
+    - Фруктовые консервы: fruktovye-konservy.md
+  - Кофе, чай, какао, сахар:
+    - Горячий шоколад: goracij-sokolad.md
+    - Какао: kakao.md
+    - Кофе: kofe.md
+    - Сахар: sahar.md
+    - Чай: caj.md
+  - Макароны, крупы, масло, специи:
+    - Бобовые: bobovye.md
+    - Компоненты для выпечки: komponenty-dla-vypecki.md
+    - Крупы: krupy.md
+    - Макароны: makarony.md
+    - Мука: muka.md
+    - Растительное масло: rastitelnoe-maslo.md
+    - Соль: sol.md
+    - Специи, приправы и пряности: specii-pripravy-i-pranosti.md
+  - Молоко, сыр, яйца:
+    - Десерты и снеки: deserty-i-sneki.md
+    - Йогурты: jogurty.md
+    - Кисломолочные продукты: kislomolocnye-produkty.md
+    - Маргарин: margarin.md
+    - Масло: maslo.md
+    - Молоко: moloko.md
+    - Молочные коктейли: molocnye-koktejli.md
+    - Молочные консервы: molocnye-konservy.md
+    - Сливки: slivki.md
+    - Сметана: smetana.md
+    - Спред: spred.md
+    - Сыр: syr.md
+    - Сырки: syrki.md
+    - Творог: tvorog.md
+    - Творожки: tvorozki.md
+    - Яйца: ajca.md
+  - Морепродукты:
+    - Икра: ikra.md
+    - Кальмары: kalmary.md
+    - Коктейли из морепродуктов: koktejli-iz-moreproduktov.md
+    - Крабовое мясо и палочки: krabovoe-maso-i-palocki.md
+    - Креветки: krevetki.md
+    - Мидии: midii.md
+    - Пресервы из морепродуктов: preservy-iz-moreproduktov.md
+    - Устрицы: ustricy.md
+  - Мясо и птица:
+    - Говядина: govadina.md
+    - Деликатесы и копчёности: delikatesy-i-kopcenosti.md
+    - Заливное: zalivnoe.md
+    - Мясо птицы: maso-pticy.md
+    - Паштеты: pastety.md
+    - Полуфабрикаты: polufabrikaty.md
+    - Свинина: svinina.md
+    - Субпродукты: subprodukty.md
+    - Фарш: fars.md
+    - Холодцы: holodcy.md
+    - Шашлык: saslyk.md
+  - Мёд, варенье, джемы, сиропы:
+    - Варенье: varene.md
+    - Джем: dzem.md
+    - Конфитюр: konfitur.md
+    - Мёд: med.md
+    - Сиропы: siropy.md
+  - Овощи, фрукты, грибы:
+    - Грибы: griby.md
+    - Зелень и салаты: zelen-i-salaty.md
+    - Овощи: ovosi.md
+    - Соленья: solena.md
+    - Фрукты: frukty.md
+    - Ягоды: agody.md
+  - Орехи, семечки, сухофрукты:
+    - Орехи: orehi.md
+    - Семечки: semecki.md
+    - Смеси орехов и сухофруктов: smesi-orehov-i-suhofruktov.md
+    - Сухофрукты: suhofrukty.md
+  - Продукты быстрого приготовления:
+    - Вторые блюда: vtorye-bluda.md
+    - Каши: kasi.md
+    - Лапша: lapsa.md
+    - Пюре: pure.md
+    - Супы: supy.md
+  - Рыба:
+    - Вся рыба: vsa-ryba.md
+    - Вяленая рыба: valenaa-ryba.md
+    - Замороженная рыба: zamorozennaa-ryba.md
+    - Копчёная рыба: kopcenaa-ryba.md
+    - Охлаждённая рыба: ohlazdennaa-ryba.md
+    - Рыбные консервы и кулинария: rybnye-konservy-i-kulinaria.md
+    - Рыбные пресервы: rybnye-preservy.md
+    - Солёная, маринованная рыба: solenaa-marinovannaa-ryba.md
+    - Сушёная рыба: susenaa-ryba.md
+  - Соки, воды, напитки:
+    - Безалкогольное вино: bezalkogolnoe-vino.md
+    - Безалкогольное пиво: bezalkogolnoe-pivo.md
+    - Вода: voda.md
+    - Газированные напитки: gazirovannye-napitki.md
+    - Диабетические напитки: diabeticeskie-napitki.md
+    - Квас: kvas.md
+    - Кисели: kiseli.md
+    - Компоты: kompoty.md
+    - Морсы: morsy.md
+    - Нектары: nektary.md
+    - Растительные напитки: rastitelnye-napitki.md
+    - Сбитень и узвары: sbiten-i-uzvary.md
+    - Смузи: smuzi.md
+    - Соки: soki.md
+    - Сокосодержащие напитки: sokosoderzasie-napitki.md
+    - Холодный чай: holodnyj-caj.md
+    - Энергетические напитки: energeticeskie-napitki.md
+  - Соусы, кетчупы, майонезы:
+    - Горчица: gorcica.md
+    - Кетчупы и томатные соусы: ketcupy-i-tomatnye-sousy.md
+    - Майонез: majonez.md
+    - Соусы: sousy.md
+    - Томатная паста: tomatnaa-pasta.md
+    - Уксус: uksus.md
+    - Хрен: hren.md
+  - Сухие завтраки, мюсли:
+    - Гранола: granola.md
+    - Каши: kasi.md
+    - Каши быстрого приготовления: kasi-bystrogo-prigotovlenia.md
+    - Колечки: kolecki.md
+    - Мюсли: musli.md
+    - Подушечки: podusecki.md
+    - Рис: ris.md
+    - Хлопья: hlopa.md
+    - Шарики: sariki.md
+  - Хлеб и выпечка:
+    - Лаваш и лепёшки: lavas-i-lepeski.md
+    - Наша пекарня: nasa-pekarna.md
+    - Пироги: pirogi.md
+    - Пицца: picca.md
+    - Хлеб: hleb.md
+    - Хлебобулочные изделия: hlebobulocnye-izdelia.md
+    - Хлебцы: hlebcy.md
+  - Чипсы, снеки, попкорн:
+    - Водоросли: vodorosli.md
+    - Гренки: grenki.md
+    - Кукурузные палочки: kukuruznye-palocki.md
+    - Начос: nacos.md
+    - Попкорн: popkorn.md
+    - Снеки: sneki.md
+    - Соломки: solomki.md
+    - Сухари: suhari.md
+    - Сухарики: suhariki.md
+    - Сушки и баранки: suski-i-baranki.md
+    - Хлебные палочки: hlebnye-palocki.md
+    - Хлебцы: hlebcy.md
+    - Чипсы: cipsy.md
+  - Шоколад, конфеты, сладости:
+    - Батончики: batonciki.md
+    - Вафли: vafli.md
+    - Восточные сладости, халва: vostocnye-sladosti-halva.md
+    - Диабетические сладости: diabeticeskie-sladosti.md
+    - Драже: draze.md
+    - Жевательная резинка: zevatelnaa-rezinka.md
+    - Зефир: zefir.md
+    - Конфеты: konfety.md
+    - Леденцы: ledency.md
+    - Мармелад: marmelad.md
+    - Мороженое: morozenoe.md
+    - Пастила: pastila.md
+    - Печенье: pecene.md
+    - Пироги, сдоба, кексы, рулеты: pirogi-sdoba-keksy-rulety.md
+    - Пирожные: piroznye.md
+    - Пряники: praniki.md
+    - Торты: torty.md
+    - Шоколад: sokolad.md
+    - Шоколадные и ореховые пасты: sokoladnye-i-orehovye-pasty.md
+
